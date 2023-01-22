@@ -1,0 +1,47 @@
+.sugar{
+    height: 100px;
+}
+
+.Heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Type{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Weight{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Height{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Ability{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Generate{
+    border-radius: 50px;
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    cursor: pointer;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png);
+    background-size: 100px;
+    border-color: red;
+}
+.content{
+    
+    border-radius: 50px;
+    height: 325px;
+    width: 300px;
+    background-color: aqua;
+
+}
+body{
+    background: linear-gradient(to left,pink,white);
+}
+
