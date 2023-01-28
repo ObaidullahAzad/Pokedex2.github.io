@@ -24,10 +24,10 @@
 #Generate{
     border-radius: 50px;
     position: fixed;
-    left: 50%;
+    left: 10%;
     top: 100px;
     cursor: pointer;
-    padding: 50px;
+    padding: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png);
     background-size: 100px;
@@ -38,7 +38,11 @@
     border-radius: 50px;
     height: 325px;
     width: 300px;
-    background-color: aqua;
+    background:linear-gradient(to left,red,white);
+    position: relative;
+    top: 100%;
+    left: 50%;
+    padding: 5px;
 
 }
 body{
