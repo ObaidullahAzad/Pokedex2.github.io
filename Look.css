@@ -27,11 +27,12 @@
     left: 10%;
     top: 100px;
     cursor: pointer;
-    padding: 100px;
+    padding: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png);
     background-size: 100px;
     border-color: red;
+    text-align: center;
 }
 .content{
     
@@ -48,4 +49,17 @@
 body{
     background: linear-gradient(to left,pink,white);
 }
+@media (max-width: 307px) {
+    #Generate{
+        padding: 45px;
+        background-position: 1px;
+        background-size: 91px;
+    }
 
+    .content{
+        height: 290px;
+        width: 250px;
+    }
+
+
+}
